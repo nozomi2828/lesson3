@@ -1,0 +1,159 @@
+/* ::::::::::::::::::::::::: */
+/* ここは仮 */
+/* ::::::::::::::::::::::::: */
+/* header{
+    border: 2px solid red;
+}
+
+main {
+    border: 2px solid blue;
+} */
+/* ::::::::::::::::::::::::: */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #f0ffff;
+    padding-bottom: 10px;
+}
+
+.logo{
+    margin: 2% 5% 0% 5%;
+}
+
+.menu{
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.menu p{
+    display:inline-block;
+    margin-top: 60px;
+}
+
+body{
+}
+
+main{
+    display: inline-block;
+    width: 100%;
+}
+
+.content{
+    display: inline-block;
+    width: 53%;
+    padding-left: 5%;
+}
+
+h1{
+    font-size: 30px;
+    width: 750px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.poster{
+    width: 40%;
+}
+
+
+.content p{
+    font-size: 30%;
+    line-height: 40px;
+}
+
+.content li{
+    font-size: 20%;
+    line-height: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.arasuji{
+vertical-align: top;
+}
+
+
+
+.right{
+    display: flex;
+    flex-flow: column;
+    float: right;
+    text-align: center;
+    width: 40%;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.cast{
+    float: right;
+}
+
+.list{
+    display: flex;
+    flex-flow: column;
+}
+
+.syuen{
+    display:inline-flex;
+    border: 1px solid black;
+    margin-bottom: 3%;
+    width: 400px;
+    margin-left: 40px;
+}
+.ken{    
+    align-self: center;
+    flex-grow: 1;
+}
+
+.kantoku{
+    margin-left: 40px;
+    width: 400px;
+    display:inline-flex;
+    border: 1px solid black;
+    margin-bottom: 3%;
+}
+.kazutaka{
+    align-self: center;
+    flex-grow: 1;
+}
+
+.kyakuhon{
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    margin-left: 40px;
+}
+.lion{
+    align-self: center;
+    flex-grow: 1;
+}
+
+.advertisement{
+    margin-left: 50px;
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+footer{
+    float: right;
+    background-color: #f0ffff;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+.contact p{
+    text-align: right;
+}
+
