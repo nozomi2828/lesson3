@@ -66,9 +66,13 @@ h1{
     line-height: 40px;
 }
 
-.content li{
+.li{
     font-size: 20%;
     line-height: 30px;
+}
+
+.coment{
+    width: 450px;
 }
 
 h2{
